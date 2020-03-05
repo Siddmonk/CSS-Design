@@ -44,3 +44,14 @@ li:hover {
     transform: rotate(-90deg) translate(3px, 30px);
     letter-spacing: .4rem;
 }
+
+.masked-image {
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.masked-image h1 {
+    font-size: 10rem;
+    
+}
