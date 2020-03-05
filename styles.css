@@ -74,7 +74,19 @@ li:hover {
 
 .skew p {
     letter-spacing: .5vw;
-    white-space:  nowrap;
-    
-    
+    white-space:  nowrap;   
+    animation: pulse 5s infinite;
 }
+
+@keyframes pulse {
+    0% {
+        color: white;
+    }
+    50% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
+
