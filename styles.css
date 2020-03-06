@@ -75,18 +75,50 @@ li:hover {
 .skew p {
     letter-spacing: .5vw;
     white-space:  nowrap;   
-    animation: pulse 5s infinite;
+    animation: ticker 10s infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes pulse {
+@keyframes ticker {
     0% {
-        color: white;
-    }
-    50% {
-        color: black;
+        margin-left: 160%
     }
     100% {
-        color: white;
+        margin-right: 160%;
     }
 }
 
+@keyframes smallticker {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-right: 120%;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .skew {
+        width: 90vw;
+        transform: translate(-44vw, 10vh) rotate(-30deg);
+        overflow: hidden;
+    }
+
+    .skew p {
+        animation: ticker 15s infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .skew {
+        width: 98vw;
+        transform: translate(-44vw, 10vh) rotate(-30deg);
+        overflow: hidden;
+    }
+
+    .skew p {
+        animation: ticker 12s infinite;
+        animation-timing-function: linear;
+    }
+}
