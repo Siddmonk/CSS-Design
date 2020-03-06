@@ -77,12 +77,9 @@ li:hover {
     letter-spacing: .5vw;
     white-space:  nowrap;   
     animation: ticker 10s infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear;    
 }
 
-.evoker {
-    display: none;
-}
 
 .hero {
     position: absolute;
@@ -109,6 +106,12 @@ li:hover {
     }
 }
 
+@media all and (max-width: 2100px) {
+    .hero {
+        display: none;
+    }
+}
+
 @media all and (max-width: 1300px) {
     .skew {
         width: 90vw;
@@ -119,6 +122,9 @@ li:hover {
     .skew p {
         animation: ticker 15s infinite;
         animation-timing-function: linear;
+    }
+    .hero {
+        display: none;
     }
 }
 
@@ -133,4 +139,9 @@ li:hover {
         animation: ticker 12s infinite;
         animation-timing-function: linear;
     }
+    .hero {
+        display: none;
+    }
 }
+
+
