@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+
+.blue {
+    background-color: #115296;
+}
+
+.blue-highlight {
+    background-color: #2573b5;
+}
+
+.green {
+    background-color: #2799a3;
+}
+
+.green-highlight {
+    background-color: #4bb29d;    
+}
+
+.earmark-top-left {
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.earmark-bottom-right {
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.earmark-top-left-two {    
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+.earmark-top-left-three {   
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.earmark-bottom-right-two {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.earmark-bottom-right-three {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
